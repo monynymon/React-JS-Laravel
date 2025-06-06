@@ -45,7 +45,6 @@ const App = () => {
               <Route path="/dashboard" element={<Dashboard />} />{" "}
               {/* Dashboard */}
             </Route>
-            
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
           </Routes>
