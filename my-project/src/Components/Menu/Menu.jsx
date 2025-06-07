@@ -46,13 +46,13 @@ const Menu = () => {
           Our Products
         </motion.h1>
         <div className="grid grid-cols-1 lg:m-auto lg:w-[100%] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 sm:gap-8 md:gap-10 justify-items-center">
-          {displayedProducts.map((product) => (
+          {displayedProducts.map((product, index) => (
             <motion.div
-              variants={FadeLeft(product.id % 1 )} // Adding slight animation variation
+              variants={FadeLeft(index)} // Adding slight animation variation
               initial="hidden"
               whileInView="visible"
               whileHover={{ scale: 1.08 }}
-              key={product.id}
+              key={product.id || `product-${index}`}
               className="relative bg-white w-[220px] rounded-3xl px-4 py-4 shadow-[0_0_22px_0_rgba(0,0,0,0.15)] flex flex-col items-center"
             >
               <Link to={`/product/${product.id}`}>
