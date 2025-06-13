@@ -1,4 +1,3 @@
-import React from 'react';
 import { CiShop } from "react-icons/ci";
 import SofaImage from '../../assets/Sofa.png';
 import { motion } from 'framer-motion';

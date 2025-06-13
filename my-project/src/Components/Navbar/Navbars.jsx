@@ -1,7 +1,7 @@
-import React, { useContext, useState, useRef, useEffect } from "react";
+import { useContext, useState, useRef, useEffect } from "react";
 import { IoIosHome, IoIosArrowDown } from "react-icons/io";
 import { MdMenu, MdOutlineShoppingCart } from "react-icons/md";
-import { FiUser, FiSettings, FiLogOut, FiUserPlus } from "react-icons/fi";
+import { FiUser, FiLogOut, FiUserPlus } from "react-icons/fi";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { useNavigate, useLocation } from "react-router-dom";
 import { CartContext } from "../../Contexts/CartContext";
