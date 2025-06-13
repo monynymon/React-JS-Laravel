@@ -1,5 +1,4 @@
 // src/components/Footer.jsx
-import React from 'react';
 import { IoIosHome } from "react-icons/io";
 import { motion } from 'framer-motion';
 import { Fadeup } from '../../ultility/animation';

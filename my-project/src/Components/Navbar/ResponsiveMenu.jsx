@@ -1,8 +1,8 @@
-import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Fadeup } from '../../ultility/animation';
 import { MdClose } from 'react-icons/md'; // Import close icon
+import PropTypes from 'prop-types';
 
 const ResponsiveMenu = ({ open, setOpen }) => {
   const navigate = useNavigate();
@@ -64,5 +64,10 @@ const ResponsiveMenu = ({ open, setOpen }) => {
     </AnimatePresence>
   );
 };
+ResponsiveMenu.propTypes = {
+  open: PropTypes.bool.isRequired,
+  setOpen: PropTypes.func.isRequired,
+};
 
 export default ResponsiveMenu;
+// export default ResponsiveMenu;

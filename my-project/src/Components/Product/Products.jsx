@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import { useState, useEffect, useContext } from "react";
 import { motion } from "framer-motion";
 import { FadeLeft } from "../../ultility/animation";
 import { Link } from "react-router-dom";

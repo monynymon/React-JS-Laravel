@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route,useLocation, Outlet } from "react-router-dom";
 import CartProvider from "./Contexts/CartContext"; // Context Provider for Cart State
 import Navbars from "./Components/Navbar/Navbars"; // Navbar Component
