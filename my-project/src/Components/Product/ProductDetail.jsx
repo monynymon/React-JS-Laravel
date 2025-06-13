@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { motion } from 'framer-motion';

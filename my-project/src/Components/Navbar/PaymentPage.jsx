@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import { useState, useContext } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { CartContext } from '../../Contexts/CartContext';
 import { motion } from 'framer-motion';
